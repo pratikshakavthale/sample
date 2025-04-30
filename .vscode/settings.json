@@ -1,0 +1,9 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/22d85f93-6f5d-4b16-a719-79f63a0d98a2/resourceGroups/reactapp123/providers/Microsoft.Web/sites/Bap-App",
+    "appService.deploySubpath": "build",
+    "appService.showBuildDuringDeployPrompt": false
+}
