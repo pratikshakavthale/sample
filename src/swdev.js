@@ -16,15 +16,11 @@ export default function swDev() {
               return subscription;
             }
 
-            return registration.pushManager.subscribe({
-              userVisibleOnly: true,
-              applicationServerKey: determineAppServerKey()
-            });
           });
       })
       .then((sub) => {
         console.log("Push subscription:", sub);
-       
+        // You can send this `sub` to your server here
       })
       .catch((error) => {
         console.error("Service Worker registration or Push setup failed:", error);
